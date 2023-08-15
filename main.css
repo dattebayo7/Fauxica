@@ -9,7 +9,9 @@ body{
 }
 .wrapper{
     padding-top: 10px;
-    max-width: 1400px;
+    max-width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
     margin: 0 auto;
 }
 
@@ -83,7 +85,6 @@ h1{
 p.employees{
     font-size: 3.3rem;
     margin: 0;
-    font-weight: 500;
 
 }
 p.details{
@@ -178,5 +179,31 @@ nav ul li a:hover:before{
     }
     to{
         transform: scaleY(0);
+    }
+}
+
+@media (max-width:1000px){
+    main{
+        gap:100px
+    }
+    .wrapper{
+        width: 90%;
+        height: 90%;
+        margin: 0 auto;
+    }
+    
+    .right-col{
+        display:flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+    .pic{
+        flex-grow: 1;
+        background-repeat: no-repeat;
+    }
+    p.employees{
+        font-size:10px;
+        font-weight: 500;
     }
 }
