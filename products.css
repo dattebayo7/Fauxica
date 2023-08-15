@@ -240,3 +240,16 @@ nav ul li a:before{
     background: #383838;
 }
 
+@media(max-width:800px){
+    .slider-img{
+        width: 100%;
+    }
+    .search{
+        padding-left:10px ;
+    }
+    body{
+        width: 100vh;
+    }
+}
+
+
