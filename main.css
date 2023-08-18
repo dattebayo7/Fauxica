@@ -191,7 +191,10 @@ nav ul li a:hover:before{
         height: 90%;
         margin: 0 auto;
     }
-    
+    .btns{
+        display:flex;
+        flex-direction: column;
+    }
     .right-col{
         display:flex;
         flex-direction: column;
@@ -205,5 +208,11 @@ nav ul li a:hover:before{
     p.employees{
         font-size:10px;
         font-weight: 500;
+    }
+}
+@media(max-width:400px){
+    .news{
+        display: flex;
+        flex-direction: column;
     }
 }
