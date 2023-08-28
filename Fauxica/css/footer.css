@@ -79,13 +79,13 @@ footer .logo{
 }
 @media(min-width:1000px){
     .footer-content{
-        gap: 200px;
+        gap: 400px;
     }
 }
 @media(max-width:1000px){
     .footer-content {
         display: flex;
-        gap:70px;
+        gap:200px;
         width:auto;
     }
     footer .logo{
@@ -100,13 +100,17 @@ footer .logo{
         width: auto;
     }
     .footer-content {
-        gap:20px;
+        gap:100px;
     }
     .category{
         padding: 0;
     }
 }
 @media(max-width:500px){
+    footer .logo{
+        padding-left: 0;
+        padding-right: 10px;
+    }
     .footer-title{
         margin-top: 20px;
         font-size: 15px;
@@ -115,10 +119,11 @@ footer .logo{
         font-size: 10px;
     }
     .footer-content{
-        gap:10px;
+        gap:80px;
     }
     .category-title{
         font-size: 15px;
+        margin-bottom: 0;
     }
     .category .footer-link{
         font-size: 10px;
@@ -126,7 +131,7 @@ footer .logo{
 }
 @media(max-width:400px){
     .footer-content{
-        gap:1px;
+        gap:30px;
     }
     .category{
         padding: 10px;
