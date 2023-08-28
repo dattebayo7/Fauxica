@@ -107,6 +107,13 @@ footer .logo{
     }
 }
 @media(max-width:500px){
+    .footer-title{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .info{
+        font-size: 10px;
+    }
     .footer-content{
         gap:10px;
     }
