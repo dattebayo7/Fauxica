@@ -7,7 +7,7 @@ const createFooter = () => {
                 <ul class="category">
                     <li class="category-title"> Men</li>
                     <li><a href="#" class=footer-link>T-shirts</a></li>
-                    <li><a href="#" class=footer-link>Sweat shirts</a></li>
+                    <li><a href="#" class=footer-link>Shirts</a></li>
                     <li><a href="#" class=footer-link>Jeans</a></li>
                     <li><a href="#" class=footer-link>Trousers</a></li>
                     <li><a href="#" class=footer-link>Shorts</a></li>
@@ -18,7 +18,7 @@ const createFooter = () => {
                 <ul class="category">
                     <li class="category-title"> Women</li>
                     <li><a href="#" class=footer-link>T-shirts</a></li>
-                    <li><a href="#" class=footer-link>Sweat shirts</a></li>
+                    <li><a href="#" class=footer-link>Shirts</a></li>
                     <li><a href="#" class=footer-link>Jeans</a></li>
                     <li><a href="#" class=footer-link>Trousers</a></li>
                     <li><a href="#" class=footer-link>Shorts</a></li>
